@@ -8,9 +8,9 @@ require_once __DIR__ . '/functions.php';
 use App\Student;
 use App\Group;
 
-$student1 = new Student("Никита", "Реутов");
-$student2 = new Student("Мария", "Перьмякова");
-$student3 = new Student("Алексей", "Хоряков");
+$student1 = new Student("Данила", "Мосунов");
+$student2 = new Student("Дашка", "Иванова");
+$student3 = new Student("Гараев", "Кирпич ");
 
 $student1->addGrade(85);
 $student1->addGrade(90);
